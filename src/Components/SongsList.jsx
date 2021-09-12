@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Button } from 'react-bootstrap'
 import { FaPlay, FaPause } from 'react-icons/fa';
+import songs from '../DataOfSongs';
+
 import Pad from './Pad'
-import songs from '../../public/DataOfSongs';
+
 
 
 const SongsList = () => {
